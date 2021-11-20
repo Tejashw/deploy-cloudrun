@@ -8449,7 +8449,7 @@ function run() {
             // Flags
             const envVars = core.getInput('env_vars'); // String of env vars KEY=VALUE,...
             const secrets = core.getInput('secrets'); // String of secrets KEY=VALUE,...
-            const region = core.getInput('region') || 'us-central1';
+            const region = core.getInput('region') || 'us-central1','asia-northeast1';
             const source = core.getInput('source'); // Source directory
             const suffix = core.getInput('suffix');
             const tag = core.getInput('tag');
